@@ -1,0 +1,55 @@
+/* setting background color  */
+body
+{  font-family: Calibri, sans-serif; 
+    background-color: #E8DFCA;
+}
+
+/* keep everything in center */
+#container { text-align: center }
+
+/* setting the image */
+#sudokuImg{
+    height:100px;
+    width: 400px;
+}
+
+/* <styling the heading> */
+.padd{
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+table { border-collapse: collapse; 
+    font-size: 2em; 
+    margin: 0 auto; }
+
+colgroup, tbody
+{ border: solid medium; }
+
+#tb1{
+    background-color: #ABD9FF;
+}
+
+#tb2{
+    background-color: #367E18;
+}
+
+#tb3{
+    background-color: #D2001A;
+}
+
+td { border: solid thin;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center; 
+    padding: 0; }
+
+button 
+{ margin-top: 15px;
+    font-size: 1.5em; 
+    border-radius: 8px;
+}
+
+button:hover{
+    cursor: pointer;
+}
